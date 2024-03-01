@@ -1,0 +1,87 @@
+/*Formulario*/
+
+.formulario{
+
+    margin-top: 7rem;
+    background-color: var(--negro);
+    padding: 4rem;
+    border-radius: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+.formulario fieldset{
+    border: none;
+    
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--blanco);
+    text-decoration: underline;
+}
+
+
+
+.campo label{
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+.w90{
+    width: 90%;
+}
+
+.boton{
+    background-color: var(--negrofondo);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    color: var(--blanco);
+    font-weight: 700;
+    text-decoration:none ;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: none;
+    width: 20%;
+    text-align: left;
+}
+
+.boton:hover{
+    background-color: var(--blanco);
+    color: var(--negrofondo);
+}
+
+
+
+@media (max-width: 768px) {
+
+    .formulario{
+        margin-top: 10%;
+        width: 75%;
+    }
+    .boton{
+        width: 100%;
+    }
+}

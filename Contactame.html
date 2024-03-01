@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvánPort</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <script src="./js/hamburguesa.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+     <script type="text/javascript">
+    emailjs.init('INte1CFDC9D5IPyqP')
+  </script>
+  
+</head>
+<body>
+  
+  <div class="nav-bg">
+    <div  class="hamburguesa">
+        <img id="hamburguesa" src="./img/hamburguesa.svg" alt="Menú Hamburguesa">
+    </div>
+    <nav id="menu--navegacion" class="navegacion resposive--dinamico">
+        <a href="./index.html">Inicio</a>
+        <a href="./Proyectos.html">Proyectos</a>
+        <a href="./habilidades.html">Habilidades</a>
+        <a href="./Contactame.html">Contactame</a>
+    </nav>
+</div>
+
+    <form class="formulario" id="form">
+      <fieldset>
+        <legend>Contactame para trabajar juntos</legend>
+        <div class="field campo">
+          <label for="from_name">Nombre:</label>
+          <input class="input-text" type="text" name="from_name" id="from_name" placeholder="Tu Nombre">
+        </div>
+        <div class="field campo">
+          <label for="email_id">Correo:</label>
+          <input class="input-text" type="text" name="email_id" id="email_id" placeholder="Tu correo">
+        </div>
+        <div class="field campo">
+          <label for="message">Mensaje:</label>
+          <textarea class="input-text mensaje" cols="30" rows="10" type="text" name="message" id="message mensaje" placeholder="Ponme un mensaje "></textarea>
+        </div>
+        <input  class="boton w90" type="submit" id="button" value="Enviar" >
+      </fieldset>
+    </form>
+
+      <script src="./js/js3.js"></script> 
+      <script src="./js/contacto.js"></script>
+</body>
+</html>
