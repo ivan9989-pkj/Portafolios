@@ -17,7 +17,7 @@ html{
 
 body{
     font-size: 16px;
-    background-image: url(/img/visax-bI_QFUZc5S4-unsplash.jpg);
+    background-image: url("../img/visax-bI_QFUZc5S4-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
