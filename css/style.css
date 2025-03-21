@@ -95,22 +95,23 @@ body{
     border-radius:1rem;
     display: flex;
     flex-direction: column;
+    border: 2px solid #B8860B;
 }
 
 
 
 /*texto perfil*/
 .texto-perfil {
-    margin-left: 2rem;
+    margin-top: 2rem;
 }
 .texto-perfil h2{
+    margin-bottom: 2rem;
     text-align: center;
     text-decoration:underline;
 }
 .texto-perfil p{
-    font-size: 2.25rem;
+    font-size: 2rem;
     overflow-wrap: break-word;
-    
 }
 
 /*Redes*/
@@ -197,7 +198,7 @@ body{
     }
 
     .texto-perfil p{
-        font-size: 1.66rem;
+        font-size: 60%;
         overflow-wrap: break-word;
         
     }
