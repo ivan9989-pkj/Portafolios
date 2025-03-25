@@ -4,14 +4,14 @@ document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
 
-   btn.value = 'Enviando...';
+   btn.value = 'Enviandose...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_r21i4pk';
+   const templateID = 'template_tqw0sqv';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Enviar';
+      btn.value = 'Send Email';
       alert('Enviado!');
     }, (err) => {
       btn.value = 'Send Email';
